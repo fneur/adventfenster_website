@@ -1,0 +1,136 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+.fncontainer {
+    position: relative;
+    text-align: center;
+    padding: 15px;
+}
+
+.fncontainer img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fncontainer h1 {
+    font-family: 'Leckerli One', cursive;
+    /* font-size: 4.5vw; */
+    font-size: 6vmin;
+    color: #ffd500;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mh-90vh {
+    /* min-height: 50vh; */
+    max-height: 90vh;
+    max-width: 100%;
+}
+
+.mycard img:hover {
+    transform: scale(0.98);
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom {
+    position: absolute;
+    left: 50%;
+    bottom: 7%;
+    transform: translate(-50%, -50%);
+}
+
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.mycard {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    vertical-align: text-bottom;
+    /* height: 100%; */
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
+.fncontainer .btn {
+    color: #999;
+    /* font-size: 1.5vw; */
+    font-size: 1.7vmin;
+}
+
+.btn-outline {
+    background-color: #eeeeff;
+    border: 3px #999 solid;
+}
+  
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .fncontainer h1 {
+        font-size: 70px;
+    }
+}
