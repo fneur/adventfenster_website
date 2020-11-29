@@ -77,6 +77,10 @@ a {
     /* height: 100%; */
 }
 
+.mycard p, h4 {
+    overflow-wrap: break-word;
+}
+
 .btn {
     display: inline-block;
     padding: 7px 15px;
