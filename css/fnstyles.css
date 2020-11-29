@@ -19,7 +19,7 @@ body {
 .fncontainer h1 {
     font-family: 'Leckerli One', cursive;
     /* font-size: 4.5vw; */
-    font-size: 6vmin;
+    /* font-size: 6vmin; */
     color: #ffd500;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px yellow;
 }
@@ -133,8 +133,18 @@ a {
     }
   }
 
-  @media (min-width: 1000px) {
+@media screen and (max-width: 767px) {
     .fncontainer h1 {
-        font-size: 70px;
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .fncontainer h1 {
+        font-size: 55px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .fncontainer h1 {
+        font-size: 75px;
     }
 }
