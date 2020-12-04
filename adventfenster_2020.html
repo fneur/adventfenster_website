@@ -167,7 +167,7 @@
                     var pos = $(this).offset().top;
 
                     var winTop = $(window).scrollTop();
-                    if (pos < winTop + 900) {
+                    if (pos < winTop + 0.6 * $(window).innerHeight()) {
                         $(this).addClass("slide");
                     }
                 });
