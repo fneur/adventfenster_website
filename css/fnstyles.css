@@ -115,7 +115,7 @@ a, a:hover {
   @keyframes slide {
     0% {
       opacity: 0;
-      transform: scale(1.3) translateY(70%);
+      transform: scale(0.7) translateY(70%);
     } 
     100% {
       opacity: 1;
@@ -125,7 +125,7 @@ a, a:hover {
   @-webkit-keyframes slide {
     0% {
       opacity: 0;
-      -webkit-transform: scale(1.3) translateY(70%);
+      -webkit-transform: scale(0.7) translateY(70%);
     } 
     100% {
       opacity: 1;
